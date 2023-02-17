@@ -1,0 +1,9 @@
+:root {
+  --expression-picker-height: 160%;
+}
+
+/* Resize Emoji/GIF/Sticker Picker */
+.drawerSizingWrapper-1txdWG {
+    bottom: 0;
+    height: var(--expression-picker-height);
+}
