@@ -1,0 +1,22 @@
+/* Resize Titlebar to big as native Windows windows. Heh. */
+.titleBar-1it3bQ {
+    height: 28px !important;
+    line-height: 28px;
+}
+
+/* Relocate window buttons */
+.winButton-3UMjdg {
+    display: flex;
+    align-items: center;
+    place-items: center;
+    justify-items: center;
+    width: 47px;
+    height: 28px;
+    margin: 0;
+    padding-top: 2px;
+}
+
+/* Recolor close button color */
+.winButtonClose-3Q8ZH5:hover {
+    background-color: #af251b;
+}
