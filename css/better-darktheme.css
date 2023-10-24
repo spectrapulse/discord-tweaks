@@ -1,14 +1,23 @@
-/* Dark Theme Color Pallete */
+/* 
+** Dark Theme Color Pallete 
+*/
 .theme-dark {
     /* Base Theme Colors */
     --background-primary: #1A1A1A;
     --background-secondary: #141414;
-    --background-secondary-alt: var(--background-secondary);
+    --background-secondary-alt: #151515;
     --background-tertiary: #0A0A0A;
+    --background-modifier-active: hsl(var(--primary-500-hsl)/0.6);
+    --background-modifier-hover: hsl(var(--primary-500-hsl)/0.4);
+    --background-modifier-selected: hsl(var(--primary-500-hsl)/0.2);
+
 
     /* Modals */
     --modal-background: var(--background-primary);
     --modal-footer-background: var(--background-secondary);
+
+    /* Profiles */
+    --profile-body-background-color: var(--background-primary);
 
     /* Text Area */
     --channeltextarea-background: #242424;
@@ -23,7 +32,17 @@
     --input-background: var(--background-tertiary);
 }
 
-/* Fixes */
+/* 
+** Tweaks 
+*/
+.theme-dark [aria-label="User area"] {
+    /* Add a more visible border to the top of the user area */
+    border-top: 1px solid var(--background-primary);
+}
+
+/*
+** Fixes 
+*/
 .theme-dark {
     /* Fix Server Guide & Member-safety Background */
     --home-background: var(--background-primary);
