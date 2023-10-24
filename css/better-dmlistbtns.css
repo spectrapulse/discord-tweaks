@@ -1,22 +1,28 @@
+/* DM List Horizontal Buttons */
 [data-list-id^="private-channels-uid"] li:nth-child(n+2):nth-child(-n+5) {
+    /* Force first 4 buttons onto a single row by shrinking them */
     display: inline-block;
     max-width: 50px !important;
     width: 50px !important;
 }
 
-[data-list-id^="private-channels-uid"] li:nth-child(n+2):nth-child(-n+5) [class^="avatar"] {
+/* [data-list-id^="private-channels-uid"] li:nth-child(n+2):nth-child(-n+5) [class^="avatar"] {
+    /* Remove the extra space from the right side of these buttons 
     margin-right: unset !important;
-}
+} */
 
-[data-list-id^="private-channels-uid"] li:nth-child(n+2):nth-child(-n+5) [class^="linkButton"] {
+/* [data-list-id^="private-channels-uid"] li:nth-child(n+2):nth-child(-n+5) [class^="linkButton"] {
+    /* Remove right-side padding 
     padding-right: unset !important;
-}
+} */
 
 [data-list-id^="private-channels-uid"] li:nth-child(n+2):nth-child(-n+5) [class^="content"] {
+    /* Remove text from button leaving only the icon */
     display: none;
 }
 
 [data-list-id^="private-channels-uid"] [class^="numberBadge"] {
+    /* Change number badge to just be a small red dot */
     position: relative;
     font-size: 0px !important;
     width: 7px !important;

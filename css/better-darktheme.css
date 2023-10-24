@@ -5,13 +5,39 @@
     --background-secondary: #141414;
     --background-secondary-alt: #161616;
     --background-tertiary: #0A0A0A;
-    
+
     /* Text Area */
     --channeltextarea-background: #242424;
-    
+
     /* Scrollbars */
     --scrollbar-auto-thumb: #242424;
     --scrollbar-auto-track: #141414;
     --scrollbar-thin-thumb: #242424;
     --scrollbar-thin-track: transparent;
+
+    /* Input/Selection Boxes */
+    --input-background: var(--background-tertiary);
+}
+
+/* Fixes */
+.theme-dark {
+    /* Fix Server Guide & Member-safety Background */
+    --home-background: var(--background-primary);
+}
+
+div[class^="chat__"] > [class^="content"] , 
+div[class^="chat__"] > [class^="container"], 
+div[class^="chat__"] > [class^="header"],
+div[class^="chat__"] [class^="scroller"] {
+    /* Janky Fix for bg's in "Channels & Roles" and pages alike */
+    background-color: var(--background-primary);
+}
+
+div[class^="chat__"] [class^="mainTableContainer"],
+div[class^="chat__"] [class^="profileCard"],
+div[class^="chat__"] [class^="sidebarCard"],
+div[class^="chat__"] [class^="prompt"],
+div[class^="chat__"] [class^="row"] {
+    /* Recolor cards, tables and sections to stand out in special guild channels */
+    background-color: var(--background-secondary);
 }
