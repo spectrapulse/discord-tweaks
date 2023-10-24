@@ -3,7 +3,7 @@
     /* Base Theme Colors */
     --background-primary: #1A1A1A;
     --background-secondary: #141414;
-    --background-secondary-alt: #161616;
+    --background-secondary-alt: var(--background-tertiary);
     --background-tertiary: #0A0A0A;
 
     /* Text Area */
