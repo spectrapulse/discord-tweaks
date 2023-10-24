@@ -1,0 +1,17 @@
+/* Dark Theme Color Pallete */
+.theme-dark {
+    /* Base Theme Colors */
+    --background-primary: #1A1A1A;
+    --background-secondary: #141414;
+    --background-secondary-alt: #161616;
+    --background-tertiary: #0A0A0A;
+    
+    /* Text Area */
+    --channeltextarea-background: #242424;
+    
+    /* Scrollbars */
+    --scrollbar-auto-thumb: #242424;
+    --scrollbar-auto-track: #141414;
+    --scrollbar-thin-thumb: #242424;
+    --scrollbar-thin-track: transparent;
+}

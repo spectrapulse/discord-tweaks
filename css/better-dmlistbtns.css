@@ -1,0 +1,28 @@
+[data-list-id^="private-channels-uid"] li:nth-child(n+2):nth-child(-n+5) {
+    display: inline-block;
+    max-width: 50px !important;
+    width: 50px !important;
+}
+
+[data-list-id^="private-channels-uid"] li:nth-child(n+2):nth-child(-n+5) [class^="avatar"] {
+    margin-right: unset !important;
+}
+
+[data-list-id^="private-channels-uid"] li:nth-child(n+2):nth-child(-n+5) [class^="linkButton"] {
+    padding-right: unset !important;
+}
+
+[data-list-id^="private-channels-uid"] li:nth-child(n+2):nth-child(-n+5) [class^="content"] {
+    display: none;
+}
+
+[data-list-id^="private-channels-uid"] [class^="numberBadge"] {
+    position: relative;
+    font-size: 0px !important;
+    width: 7px !important;
+    height: 7px !important;
+    min-width: unset !important;
+    min-height: unset !important;
+    margin-bottom: 24px;
+    margin-right: 0px;
+}
