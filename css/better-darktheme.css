@@ -6,6 +6,10 @@
     --background-secondary-alt: var(--background-secondary);
     --background-tertiary: #0A0A0A;
 
+    /* Modals */
+    --modal-background: var(--background-primary);
+    --modal-footer-background: var(--background-secondary);
+
     /* Text Area */
     --channeltextarea-background: #242424;
 
@@ -25,10 +29,10 @@
     --home-background: var(--background-primary);
 }
 
-div[class^="chat__"] > [class^="content"] , 
-div[class^="chat__"] > [class^="container"], 
-div[class^="chat__"] > [class^="header"],
-div[class^="chat__"] [class^="scroller"] {
+div[class^="chat__"]>[class^="content"],
+div[class^="chat__"]>[class^="container"],
+div[class^="chat__"]>[class^="header"],
+div[class^="chat__"] [class^="scroller__"] {
     /* Janky Fix for bg's in "Channels & Roles" and pages alike */
     background-color: var(--background-primary);
 }
@@ -40,4 +44,9 @@ div[class^="chat__"] [class^="prompt"],
 div[class^="chat__"] [class^="row"] {
     /* Recolor cards, tables and sections to stand out in special guild channels */
     background-color: var(--background-secondary);
+}
+
+div[class^="chat__"] [class^="wrapper"] [class^="listItems__"] [class^="row"] {
+    /* Fix "In Call" View */
+    background-color: transparent !important;
 }
