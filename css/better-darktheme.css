@@ -52,8 +52,7 @@
 .theme-dark div[class^="chat"]>[class^="content"],
 .theme-dark div[class^="chat"]>[class^="container"],
 .theme-dark div[class^="chat"]>[class^="header"],
-.theme-dark div[class^="chat"] [class^="chat"],
-.theme-dark div[class^="chat"] [class^="scrollerContainer"] {
+.theme-dark div[class^="chat"] [class^="chat"]:not([class^="chatToasts"], [class^="chatIcon"]) {
     /* Janky Fix for bg's in "Channels & Roles" and pages alike */
     background-color: var(--background-primary);
 }
