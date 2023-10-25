@@ -10,6 +10,7 @@
     --background-modifier-active: hsl(var(--primary-500-hsl)/0.5);
     --background-modifier-hover: hsl(var(--primary-500-hsl)/0.4);
     --background-modifier-selected: hsl(var(--primary-500-hsl)/0.3);
+    --background-message-hover: hsl(var(--primary-900-hsl)/0.2);
 
 
     /* Modals */
