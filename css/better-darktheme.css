@@ -7,9 +7,9 @@
     --background-secondary: #141414;
     --background-secondary-alt: #151515;
     --background-tertiary: #0A0A0A;
-    --background-modifier-active: hsl(var(--primary-500-hsl)/0.6);
+    --background-modifier-active: hsl(var(--primary-500-hsl)/0.5);
     --background-modifier-hover: hsl(var(--primary-500-hsl)/0.4);
-    --background-modifier-selected: hsl(var(--primary-500-hsl)/0.2);
+    --background-modifier-selected: hsl(var(--primary-500-hsl)/0.3);
 
 
     /* Modals */
