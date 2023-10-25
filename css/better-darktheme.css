@@ -23,9 +23,9 @@
     --channeltextarea-background: #242424;
 
     /* Scrollbars */
-    --scrollbar-auto-thumb: #242424;
-    --scrollbar-auto-track: #141414;
-    --scrollbar-thin-thumb: #242424;
+    --scrollbar-auto-thumb: #0A0A0A;
+    --scrollbar-auto-track: #151515;
+    --scrollbar-thin-thumb: #000000;
     --scrollbar-thin-track: transparent;
 
     /* Input/Selection Boxes */
