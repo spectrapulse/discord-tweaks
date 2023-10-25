@@ -1,0 +1,14 @@
+/* Gift Button in Text Area (With translations)*/
+[class^="channelTextArea"] [aria-label~="cadeau"],
+[class^="channelTextArea"] [aria-label~="prezent"],
+[class^="channelTextArea"] [aria-label~="regalo"],
+[class^="channelTextArea"] [aria-label~="gift"],
+[class^="channelTextArea"] [aria-label~="gave"],
+[class^="channelTextArea"] [aria-label~="Geschenk"] {
+    display: none;
+}
+
+/* Help button in generic header */
+[class^="container"] [href="https://support.discord.com"] {
+    display: none;
+}
