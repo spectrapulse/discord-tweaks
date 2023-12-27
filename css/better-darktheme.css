@@ -70,3 +70,7 @@
     /* Fix "In Call" View */
     background-color: transparent !important;
 }
+
+.theme-dark #forum-grid-header-section-1 [class^="mainCard__"] {
+   background-color: var(--background-secondary-alt); 
+}
